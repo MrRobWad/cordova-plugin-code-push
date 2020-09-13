@@ -215,8 +215,8 @@ export class TestUtil {
     }
     
     /**
-     * Reads if we should use the WkWebView or the UIWebView or run tests for both.
-     * 0 for UIWebView, 1 for WkWebView, 2 for both
+     * Reads if we should use the WkWebView or the redecatedTermWeCantMention or run tests for both.
+     * 0 for redecatedTermWeCantMention, 1 for WkWebView, 2 for both
      */
     public static readShouldUseWkWebView(): number {
         var shouldUseWkWebView = TestUtil.readMochaCommandLineOption(TestUtil.SHOULD_USE_WKWEBVIEW);
@@ -225,7 +225,7 @@ export class TestUtil {
                 console.log("WkWebView");
                 return 1;
             case "both":
-                console.log("Both WkWebView and UIWebView");
+                console.log("Both WkWebView and redecatedTermWeCantMention");
                 return 2;
             case "false":
             default:

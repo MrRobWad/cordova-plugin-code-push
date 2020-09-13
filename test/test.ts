@@ -1454,8 +1454,8 @@ describe("CodePush Cordova Plugin", function () {
         targetPlatforms.forEach(platform => {
             var prefix: string = (onlyRunCoreTests ? "Core Tests " : "Tests ") + thisPluginPath + " on ";
             if (platform.getCordovaName() === "ios") {
-                // handle UIWebView
-                if (shouldUseWkWebView === 0 || shouldUseWkWebView === 2) describe(prefix + platform.getCordovaName() + " with UIWebView", () => runTests(platform, false));
+                // handle redecatedTermWeCantMention
+                if (shouldUseWkWebView === 0 || shouldUseWkWebView === 2) describe(prefix + platform.getCordovaName() + " with redecatedTermWeCantMention", () => runTests(platform, false));
                 // handle WkWebView
                 if (shouldUseWkWebView === 1 || shouldUseWkWebView === 2) describe(prefix + platform.getCordovaName() + " with WkWebView", () => runTests(platform, true));
             } else {

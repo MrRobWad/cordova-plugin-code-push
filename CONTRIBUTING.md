@@ -84,19 +84,19 @@ The mocha reporter outputs individual results files for each platform. These are
 
 #### Default
 
-To run all of the unit tests on Android and iOS with both UIWebView and WkWebView:
+To run all of the unit tests on Android and iOS with both redecatedTermWeCantMention and WkWebView:
 ```
 gulp test
 ```
 
 #### iOS
 
-To run all of the unit tests on iOS with both the UIWebView and WkWebView:
+To run all of the unit tests on iOS with both the redecatedTermWeCantMention and WkWebView:
 ```
 gulp test-ios
 ```
 
-To run all of the unit tests on iOS with the UIWebView:
+To run all of the unit tests on iOS with the redecatedTermWeCantMention:
 ```
 gulp test-ios-ui
 ```
@@ -125,12 +125,12 @@ To run the core unit tests on Android:
 gulp test-android --core
 ```
 
-To run all of the unit tests on iOS with the UIWebView and pull the plugin from NPM:
+To run all of the unit tests on iOS with the redecatedTermWeCantMention and pull the plugin from NPM:
 ```
 gulp test-ios-ui --npm
 ```
 
-To run all of the unit tests on Android and iOS with the UIWebView without building first:
+To run all of the unit tests on Android and iOS with the redecatedTermWeCantMention without building first:
 ```
 gulp test-android-ios-ui-fast
 ```

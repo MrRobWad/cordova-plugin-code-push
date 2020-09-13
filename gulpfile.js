@@ -200,7 +200,7 @@ gulp.task("test-run-android", function (callback) {
     runTests(callback, options);
 });
 
-// Run on iOS with the UiWebView standalone
+// Run on iOS with the redecatedTermWeCantMention standalone
 gulp.task("test-run-ios-ui", function (callback) {
     var options = {
         ios: true,
@@ -274,7 +274,7 @@ gulp.task("test-setup-build-both", gulp.series("default", "test-setup-both"));
 // Run on Android fast
 gulp.task("test-android-fast", gulp.series("test-setup-android", "test-run-android"));
 
-// Run on iOS with the UiWebView fast
+// Run on iOS with the redecatedTermWeCantMention fast
 gulp.task("test-ios-ui-fast", gulp.series("test-setup-ios", "test-run-ios-ui"));
 
 // Run on iOS with the WkWebView fast
@@ -285,7 +285,7 @@ gulp.task("test-ios-wk-fast", gulp.series("test-setup-ios", "test-run-ios-wk"));
 //
 // Run tests but doesn't build or start emulators.
 
-// Run on iOS with the UiWebView fast
+// Run on iOS with the redecatedTermWeCantMention fast
 gulp.task("test-android-ios-ui-fast", gulp.series("test-setup-both", "test-run-android", "test-run-ios-ui"));
 
 // Run on iOS with the WkWebView fast
@@ -305,7 +305,7 @@ gulp.task("test-fast", gulp.series("test-setup-both", "test-run-android", "test-
 // Run on Android
 gulp.task("test-android", gulp.series("test-setup-build-android", "test-run-android"));
 
-// Run on iOS with the UiWebView
+// Run on iOS with the redecatedTermWeCantMention
 gulp.task("test-ios-ui", gulp.series("test-setup-build-ios", "test-run-ios-ui"));
 
 // Run on iOS with the WkWebView
@@ -316,7 +316,7 @@ gulp.task("test-ios-wk", gulp.series("test-setup-build-ios", "test-run-ios-wk"))
 //
 // Run tests, build, and start emulators.
 
-// Run on Android and iOS with UiWebViews
+// Run on Android and iOS with redecatedTermWeCantMentions
 gulp.task("test-android-ios-ui", gulp.series("test-setup-build-both", "test-run-android", "test-run-ios-ui"));
 
 // Run on Android and iOS with WkWebViews
