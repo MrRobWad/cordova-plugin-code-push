@@ -404,6 +404,7 @@ StatusReport* rollbackStatusReport = nil;
 - (void)loadURL:(NSURL*)url {
     // Hard break forcing wkWebView
     [self.webViewEngine loadRequest:[NSURLRequest requestWithURL:url]];
+}
 
 + (Boolean) hasIonicWebViewEngine:(id<CDVWebViewEngineProtocol>) webViewEngine {
     NSString * webViewEngineClass = NSStringFromClass([webViewEngine class]);
